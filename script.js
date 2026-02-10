@@ -7,8 +7,8 @@ const baterias = [
     tamaño: "12x55",
     precio: 135000,
     imagen: "res/moura/55.png",
-    destacado: true,
-    enStock: false,
+    destacado: false,
+    enStock: true,
     visible: true,
     garantia: 12,
     specs: {
@@ -302,7 +302,7 @@ const baterias = [
     precio: 130000,
     imagen: "res/bosch/75.png",
     destacado: true,
-    enStock: false,
+    enStock: true,
     visible: true,
     garantia: 12,
     specs: {
@@ -322,7 +322,7 @@ const baterias = [
     precio: 200000,
     imagen: "res/batsa/160.png",
     destacado: false,
-    enStock: true,
+    enStock: false,
     visible: true,
     garantia: 12,
     specs: {
