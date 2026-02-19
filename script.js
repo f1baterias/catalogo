@@ -27,7 +27,7 @@ const baterias = [
     precio: 135000,
     imagen: "res/moura/65.png",
     destacado: true,
-    enStock: false,
+    enStock: true,
     visible: true,
     garantia: 12,
     specs: {
@@ -86,7 +86,7 @@ const baterias = [
     precio: 155000,
     imagen: "res/willard/75s.png",
     destacado: false,
-    enStock: false,
+    enStock: true,
     visible: false,
     garantia: 12,
     specs: {
@@ -263,7 +263,7 @@ const baterias = [
     precio: 90000,
     imagen: "res/volta/75.png",
     destacado: false,
-    enStock: true,
+    enStock: false,
     visible: true,
     garantia: 6,
     specs: {
