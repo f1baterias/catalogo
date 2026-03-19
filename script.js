@@ -5,7 +5,7 @@ const baterias = [
   {
     marca: "Moura",
     tamaño: "12x55",
-    precio: 135000,
+    precio: 145000,
     imagen: "res/moura/55.png",
     destacado: false,
     enStock: true,
@@ -24,7 +24,7 @@ const baterias = [
   {
     marca: "Moura",
     tamaño: "12x65",
-    precio: 135000,
+    precio: 145000,
     imagen: "res/moura/65.png",
     destacado: true,
     enStock: true,
@@ -43,7 +43,7 @@ const baterias = [
   {
     marca: "Moura",
     tamaño: "12x75",
-    precio: 165000,
+    precio: 175000,
     imagen: "res/moura/75.png",
     destacado: true,
     enStock: true,
@@ -59,6 +59,25 @@ const baterias = [
       rc: "110 min",
     },
   },
+  {
+    marca: "Moura",
+    tamaño: "12x95",
+    precio: 250000,
+    imagen: "res/moura/95.png",
+    destacado: true,
+    enStock: true,
+    visible: true,
+    garantia: 12,
+    specs: {
+      modelo: "M95QD",
+      dimensiones: "350x175x190 mm",
+      voltaje: "12V",
+      cca: "850A",
+      ca: "720A",
+      c20: "90Ah",
+      rc: "160 min",
+    },
+  },
 
   // WILLARD
   {
@@ -66,7 +85,7 @@ const baterias = [
     tamaño: "12x65",
     precio: 130000,
     imagen: "res/willard/65.png",
-    destacado: false,
+    destacado: true,
     enStock: true,
     visible: true,
     garantia: 12,
@@ -86,7 +105,7 @@ const baterias = [
     precio: 155000,
     imagen: "res/willard/75s.png",
     destacado: false,
-    enStock: true,
+    enStock: false,
     visible: false,
     garantia: 12,
     specs: {
@@ -121,11 +140,11 @@ const baterias = [
   {
     marca: "Willard",
     tamaño: "12x85",
-    precio: 170000,
+    precio: 185000,
     imagen: "res/willard/85.png",
     destacado: false,
-    enStock: false,
-    visible: false,
+    enStock: true,
+    visible: true,
     garantia: 12,
     specs: {
       modelo: "UB840",
@@ -145,8 +164,8 @@ const baterias = [
     precio: 85000,
     imagen: "res/herbo/65.png",
     destacado: false,
-    enStock: true,
-    visible: true,
+    enStock: false,
+    visible: false,
     garantia: 12,
     specs: {
       modelo: "PLUS MAX",
@@ -161,7 +180,7 @@ const baterias = [
   {
     marca: "Herbo",
     tamaño: "12x75",
-    precio: 100000,
+    precio: 110000,
     imagen: "res/herbo/75.png",
     destacado: false,
     enStock: true,
@@ -182,7 +201,7 @@ const baterias = [
   {
     marca: "Sermat",
     tamaño: "12x55",
-    precio: 105000,
+    precio: 120000,
     imagen: "res/sermat/55.png",
     destacado: false,
     enStock: true,
@@ -204,8 +223,8 @@ const baterias = [
     precio: 110000,
     imagen: "res/sermat/65.png",
     destacado: false,
-    enStock: true,
-    visible: true,
+    enStock: false,
+    visible: false,
     garantia: 12,
     specs: {
       modelo: "ST65",
@@ -318,21 +337,30 @@ const baterias = [
   // BATSA
   {
     marca: "Batsa",
-    tamaño: "12x160",
+    tamaño: "12x180",
     precio: 200000,
     imagen: "res/batsa/160.png",
     destacado: false,
-    enStock: false,
+    enStock: true,
     visible: true,
     garantia: 12,
     specs: {
-      modelo: "LAB23",
-      dimensiones: "483x170x240 mm",
+      modelo: "15PLC",
       voltaje: "12V",
-      cca: "800A",
-      ca: "960A",
-      c20: "114Ah",
-      rc: "240 min",
+    },
+  },
+    {
+    marca: "Batsa",
+    tamaño: "12x110",
+    precio: 150000,
+    imagen: "res/batsa/110.png",
+    destacado: false,
+    enStock: true,
+    visible: true,
+    garantia: 12,
+    specs: {
+      modelo: "15PLC",
+      voltaje: "12V",
     },
   },
 ];
